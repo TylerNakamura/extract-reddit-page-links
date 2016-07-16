@@ -38,4 +38,4 @@ def print_submissions(submissions):
         print
 
 # sample
-print_submissions(extract_top_youtube_submissions("youtubehaiku", 20))
+# print_submissions(extract_top_youtube_submissions("youtubehaiku", 20))
