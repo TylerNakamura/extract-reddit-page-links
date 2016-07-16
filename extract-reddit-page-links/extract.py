@@ -15,6 +15,7 @@ def extract_top_youtube_submissions(subreddit, amount):
         # if the URL isn't from youtube
         if not is_from_youtube(submission.url):
             submission_list.remove(submission)
+    submission_list.reverse()
     return submission_list
 
 
