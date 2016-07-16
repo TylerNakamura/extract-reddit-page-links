@@ -32,10 +32,9 @@ def is_from_youtube(link):
 
 def print_submissions(submissions):
     for submission in submissions:
-        print
-        print submission.title
-        print submission.url
-        print
+        print "TITLE:", submission.title
+        print "URL  :", submission.url
+        print "================================="
 
 # sample
 # print_submissions(extract_top_youtube_submissions("youtubehaiku", 20))
